@@ -17,20 +17,21 @@ html ,body{
 header {
     background-color: black;
     color: white;
-    text-align: center;
     font-family: 'Passion One', cursive;
-    padding-top: 7%;
-    padding-bottom: 5%;
+    padding-top:7%;
+    padding-bottom:5%;
+    height: 150px;
 }
 
 h1{
     font-size: 8vw;
     font-variant: small-caps;
+    text-align: center;
 }
 
 header>p{
         font-size: 1.5em;
-
+        text-align: center;
 }
     
 
@@ -97,6 +98,13 @@ section{
     padding: 5px;
 }
 
+#f>p:hover , #fo>p:hover{
+    background-color: rgba(0, 0, 0, 0.747);
+    color: white;
+    display: inline-block;
+    padding: 5px;
+}
+
  footer{
     background-color: black;
     color: white;
@@ -105,3 +113,23 @@ section{
     font-size: 1.3em;
     font-family: 'Passion One', cursive;
  }
+
+ #ol>img{
+    width: 50px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    padding-bottom: 0px;
+}
+
+section.puta{
+    text-align: left;
+    display: inline-block ;
+    position: relative;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    top: -240px;
+}
+section.puta>a>img:hover{
+        border: 3px solid white;
+        transform: translate(5px,5px);
+}
